@@ -38,29 +38,7 @@ const App = ({news, Crypto, weather}) => {
   >
     <Layout style={{height:'100vh'}}>
       <Header style={headerStyle}>
-        <Box style={{
-          display:"flex",
-          justifyContent:"space-between",
-          alignItems:"center",
-          minWidth:"7rem"
-        }}>
-          <Avatar />
-          <Typography>Jon Doe</Typography>
-        </Box>
-        {/* {
-          Crypto[0]?        <Box style={{
-            display:"flex",
-            justifyContent:"space-between",
-            alignItems:"center",
-            minWidth:"22rem"
-          }}>
-            <Typography>{Crypto[0].name}</Typography>
-            <Typography>{Crypto[0].quote.USD.price} $</Typography>
-            <Typography style={{
-              color:"red"
-            }}>{Crypto[0].quote.USD.volume_change_24h}</Typography>
-          </Box>:<Spin />
-        } */}
+          
       </Header>
       <Layout hasSider>
         <Sider theme="dark" style={siderStyle}><AppSidebar /></Sider>

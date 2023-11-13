@@ -19,7 +19,6 @@ function getItem(label, key, icon, children, type) {
 const items = [
   getItem(<Link to={AppRoute.dashboard}>Dashboard</Link>, 'dashboard', <PieChartOutlined />),
   getItem(<Link to={AppRoute.news}>news</Link>, 'news', <DesktopOutlined />),
-  getItem(<Link to={AppRoute.weather}>weather</Link>, 'weather', <ContainerOutlined />),
   getItem(<Link to={AppRoute.currency}>currency</Link>, 'currency', <ContainerOutlined />),
 ];
 const AppSidebar = () => {
